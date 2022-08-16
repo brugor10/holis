@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body {
+    font-family: Rubik, monospace;
+    background: linear-gradient(90deg, 
+    rgb(18, 1, 1) 0%, 
+    rgb(181, 22, 22) 35%, 
+    rgb(30, 21, 98) 100%);
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+}
+
+
+h1 {
+    
+    margin: 0 0 10px 20px;
+    font-size: 40px;
+}
+
+#portada {
+    width: 800px;
+    border-radius: 19px;
+    margin: 0 0 0 20px;
+
+}
+.song-info {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.info {
+    font-weight: 200;
+}
+.letra {
+    margin: 20px;
+}
+
+.coro {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+audio {
+    margin: 0 0 0 20px
+}
+
+@media (max-width: 600px) {
+    #portada{
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+   
+}
+
+@media (max-width: 400px) {
+    #portada{
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+   
+}
